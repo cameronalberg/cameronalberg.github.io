@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cameron Alberg: Zinger</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/one-page-wonder.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a style="text-decoration:none" href="index.html"><strong>Cameron</strong> Alberg</a></h1>
+						<nav>
+							<ul>
+								<li><a style="text-decoration:none" href="#footer" class="icon fa-info-circle">About Me</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+   <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+		<div class="row">
+              <div class="col-md-7">
+				<h2 class="featurette-heading" style="font-size:35px">Zinger
+                <span class="text-muted">Golf Ball Return</span></h2>
+				<p class="lead">The Zinger is a voice activated ball return mechanism that can launch a ball vertically in the air, allowing a player to retrieve their ball from the hole with a simple and effortless voice command. The Zinger was created as part of a design for manufacturing and assembly (DFMA) class.</p>
+				<p>Cameron Alberg, Adam Flowers, Jason Pierce, Mitchell Martin, Jacob Wienhoff, Ivan Zlatanov</p>
+				<p style="margin-bottom:10px"> <b>My Role: Generated concepts, created CAD models and renderings, tested prototypes</b></p>
+				<p>Skills: Design for Manufacturing and Assembly | Rapid Prototyping | Mechanical Design | Design of Experiments</p>
+			  </div>
+			  
+			  <div class="col-md-4 col-md-offset-1">
+			  <img style="max-width:100%" src="gifs/zinger.gif">
+			  <p>Demo of Zinger functionality</p>
+			  </div>       
+		</div>
+        <hr>
+		<div class="row">
+			  <div class="col-md-6">
+			  <img style="max-width:100%" src="images/projects/zinger2.png">
+			  <p>Initial design concept</p>
+			  </div>    
+              <div class="col-md-6"><h2 style="margin-bottom:10px"class="featurette-heading">Why</h2>
+			  <p class="lead" style="font-style:italic">How can we remove the need to pick up a golf ball, and make golf more exciting?</p>
+				<p class="lead">My team and I set out to add a technological twist to golf by developing a golf ball return mechanism. Existing products send balls back to the user as soon as it enters and launch at an angle, resulting in the ball still ending up on the ground. We wanted to make a mechanism that added some flare to golf, and eliminated the mundane task of bending over to pick up a golf ball. </p>
+			  </div>	
+
+		</div>
+		<hr>
+			<div class="row">
+              <div class="col-md-4">
+				<img style="max-width:100%" src="images/projects/zinger3.jpg">
+				 <p>Preliminary CAD model (Solidworks)</p>
+			  </div>
+              <div class="col-md-4">
+				<img style="max-width:100%" src="images/projects/zinger4.jpg">
+				<p>Preliminary CAD model (Solidworks)</p>
+			  </div>
+              <div class="col-md-4">
+				<img style="max-width:100%" src="images/projects/zinger5.jpg">
+				<p>Final CAD model (Creo)</p>
+			  </div>
+			</div>
+		
+        <hr>
+			<div class="row">
+              <div class="col-md-8">
+				<h2 class="featurette-heading" style="margin-bottom:10px">Process</h2>
+				<p class="lead"> The Zinger’s launching mechanism is comprised of a simple spring loaded piston,  which is compressed by a rack and pinion system. All of these components are constrained by a wooden frame which provides optimal strength and rigidity.
+Once a golf ball has entered into the cup, it settles into the depression at the uppermost portion of the piston. Once the golfer speaks the command “golf ball” the motor is activated, rotating a gear (pinion), which moves the racked piston downward into the loaded position. The pinion only contains teeth on a quarter of its circumference, so once the motor spins far enough, the teeth of the racked pinion disengage and the compressed spring is allowed to release, launching the ball approximately three feet into the air for the golfer to catch. </p>
+				<p class="lead">In the early stages of the design process, the main problem was finding a spring stiffness that yielded the desired launch height. The goal was to achieve a consistent launch height of three feet, allowing the user to easily catch the ball around waist height and move onto the next hole. Springs ranging from 5 to 27 lbs/in. were tested, with a combination of a 9 and 6 lbs/in springs in series yielding the desired launch height.
+Once the optimal spring combination was determined, multiple iterations on a number of parts were completed to improve the structural integrity and performance of the prototype.</p>
+<p class="lead">To interface with the motor we used an Arduino microprocessor, motor relay, microphone, and voice recognition software. When the system is activated the motor rotates one full revolution, launching the ball and then returning to its natural position.
+				</p>
+<p class="lead">
+The 3D printed racked piston went through several iterations during the design process. Design parameters that were changed: the number of teeth to control compression distance of the spring, increased gear teeth width to reduce stress on the gear mesh, fill density to improve strength, and an alteration to the overall shape to improve the clearance between the guide sleeve and accommodate shaft collars.
+The pinion gear also went through several iterations: increased width to reduce stress at the gear mesh, and the addition of a set screw to reduce the chances of slipping off the d-shaft.</p>
+			  </div>
+			  
+			  <div class="col-md-4">
+			  <img style="max-width:100%" src="images/projects/zinger6.jpg">
+			  <p>Iterations of racked piston</p>
+			  <img style="max-width:100%" src="images/projects/zinger10.jpg">
+			  <p>Spring combination with shaft collar</p>
+			  </div>       
+		</div>	
+
+		<hr>
+		<div class="row">
+			  <div class="col-md-4">
+				  <img style="max-width:100%" src="images/projects/zinger8.png">
+				  <p>Final prototype with labeled components</p>
+			  </div>    
+              <div class="col-md-8"><h2 class="featurette-heading" style="margin-bottom:10px">Design for Assembly<br>Design of Experiments</h2>
+
+	<p class="lead">We determined that the cheapest and most effective manufacturing methods for the wooden and plastic parts would be blow molding, which produces a much lower price for the desired part tolerance than 3D printing or injection molding using the given geometries. Based on design for assembly (DFA) analysis of the Zinger, the mechanism takes a total time of 149 seconds to assemble, with the largest contributors to this build time being the screws holding the Zinger together and the set screws attaching collars to various shafts.</p>
+	<p class="lead">Design of experiments (DOE) was also utilized to maximize the height acheived by the golf ball once it was launched. To do this, four tests (two test variables) were run with the varying parameters, and then run again, resulting in eight total experiments. Spring compression length was the first variable, and the spring constant was the second. After analyzing the main/noise effects, and standard deviations/variances of our system, we determined that the spring constant was the only variable that had a significant effect between tests. </p>
+			  </div>			  
+		</div>
+		<hr>
+		<div class="row">
+			  <div class="col-md-8" style="padding-bottom:20px">
+			  
+			  <h2 class="featurette-heading" style="margin-bottom:10px">Solution</h2>
+				<p class="lead">Our final protoype was successfully able to launch a golf ball three feet vertically in the air by using a voice command. The Zinger can be installed on any golf hole, and is battery powered.</p> 
+				<p class="lead">Future models could feature a more compact design with a protective casing. Additionally, overall assembly time could be drastically reduced if the entire base structure (including the base, walls and horizontal blocks) were created using some rapid prototyping method such as 3D printing. This would remove many of the required screws, cutting the build time by more than 60 seconds.</p>
+			  <a href="index.html"><button>Back to Projects</button></a>
+
+			  </div>    
+              <div class="col-md-4">
+			  <img style="max-width:100%" src="gifs/zinger.gif">
+			  <p>Demo of Zinger functionality</p>
+			  </div>			  
+		</div>		
+		
+		</div>
+
+		</div>
+				<!-- Footer -->
+					<footer style="margin-bottom:0px" id="footer" class="panel">
+						<div class="inner split">
+							<div style="padding-bottom:20px">
+								<section>
+									<h2>Engineer | Designer | Leader</h2>
+									<p>I believe that the best designs are the ones that look like they haven’t been designed at all. Driven by a passion to create, I merge mechanical engineering and design thinking methods to develop products that are effortless to use.</p>
+									<p style="margin-bottom:3px"><b>B.S.-Engineering Mechanics, specializing in Product Design</b> </p>
+									<p style="font-style:italic; margin-bottom:10px">University of Illinois at Urbana-Champaign</p>
+									<a href="cameronalberg_resume_web.pdf" target='_blank'><input  type="button" value="Resume"></a>   
+									<a href="cameronalberg_portfolio_web.pdf" target='_blank'><input  type="button" style="margin-top:10px" value="PDF Portfolio"></a>
+								</section>
+
+							</div>
+							<div>
+								<section>
+									<h2>Get in touch</h2>
+									<div>
+										<i class="fa fa-envelope-o fa-fw"></i><a style="text-decoration:none" href="mailto:cameronalberg@gmail.com" target="_blank"> cameronalberg@gmail.com</a><br><br>
+										<i class="fa fa-linkedin fa-fw"></i><a style="text-decoration:none" href="http://linkedin.com/in/cameronalberg" target="_blank"> linkedin.com/in/cameronalberg </a>
+
+									</div>
+								</section>
+								<p class="copyright"><br><br>
+									&copy; Cameron Alberg, 2017
+								</p>
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
